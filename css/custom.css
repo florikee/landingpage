@@ -1,58 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600,700&display=swap');
 
-@importurl('https://fonts.googleapis.com/css?family=Poppins:300,400,600,700&display=swap');
- 
 body{
-background-color: #161723;
-color:#fff;
+    background-color: #fff;
+    color:#161723;
 }
- 
-h1,h2,h3,h4,h5,h6{
-font-family: "Poppins",'sans-serif';
 
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Poppins",'sans-serif';
+   
 }   
- 
+
 h1,h2,h3{
-font-weight:bold
+    font-weight:bold
 }
 h4,h5{
-font-weight:300;
+    font-weight:300;
 }
 h6{
-font-weight:bold;
-text-transform: uppercase;
-letter-spacing: 1px;
-font-size:11px;
-}
- 
-p{
-font-size:17px;
-line-height: 26px;
-}
- 
-a{
-color:#fff;
-text-decoration: none;
-}
-a:hover{
-text-decoration: none;
-color:#fff;
-}
- 
-.ceyond-navigation{
-padding: 20px0;
-}
-.ceyond-navigation.navigation-item:nth-child(2){
-text-align:center;
-}
- 
-.ceyond-navigation .navigation-item ul{
-list-style: none;
-}
-.ceyond-navigation .navigation-item ul li{
-display:inline-block;
-margin-right: 20px;
-}
-.ceyond-navigation .navigation-item ul li:last-child{
-margin-right:0;
+    font-weight:bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size:11px;
 }
 
+p{
+        font-size:17px;
+        line-height: 26px;
+}
+
+a{
+    color:#161723;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color:#161723;
+}
+
+.ceyond-navigation{
+    padding: 20px 0;
+}
+.ceyond-navigation .navigation-logo{
+    max-width: 140px;
+}
+.ceyond-navigation .navigation-item:nth-child(2){
+    text-align:center;
+}
+
+.ceyond-navigation .navigation-item ul{
+    padding: 0;
+    height: 45px;
+    line-height: 45px;
+}
+
+
+.zoho-btn{
+    background: rgba(240, 70, 61, 0.10980392156862745);
+    color: #F0463D;
+    display: inline-block;
+    font-size: 12px;
+    padding: 11px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    transition:0.2s ease-in;
+
+}
+
+.zoho-btn:hover{
+    color:#F0463D;
+   
+}
+.zoho-btn-two{
+    
+    color: #F0463D;
+    display: inline-block;
+    font-size: 12px;
+    padding: 11px 0;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    transition:0.2s ease-in;
+
+}
+
+.zoho-btn-two:hover{
+    color:#F0463D;
+    
+}
+
+
+.hover-up-down:hover{
+    transform: translate(0,2px);
+}
+.hover-left-right:hover{
+    transform: translate(2px,0);
+}
+
+
+
+ul.inline{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+ul.inline li{
+    display:inline-block;
+    margin-right: 20px;
+}
+ul.inline li:last-child{
+    margin-right:0;
+}
+
+
+.ceyond-service-intro{
+    padding: 80px 0;
+}
+.ceyond-service-intro .service-title h1{
+    padding:30px 0;
+}   
+
+.ceyond-service-intro .service-image img{
+        max-width: 80px;
+}
+
+.intro-section-bg-image{
+    text-align:right;
+}
+.intro-section-bg-image img{
+        width:80%;
+}
