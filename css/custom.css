@@ -1,0 +1,58 @@
+
+@importurl('https://fonts.googleapis.com/css?family=Poppins:300,400,600,700&display=swap');
+ 
+body{
+background-color: #161723;
+color:#fff;
+}
+ 
+h1,h2,h3,h4,h5,h6{
+font-family: "Poppins",'sans-serif';
+
+}   
+ 
+h1,h2,h3{
+font-weight:bold
+}
+h4,h5{
+font-weight:300;
+}
+h6{
+font-weight:bold;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-size:11px;
+}
+ 
+p{
+font-size:17px;
+line-height: 26px;
+}
+ 
+a{
+color:#fff;
+text-decoration: none;
+}
+a:hover{
+text-decoration: none;
+color:#fff;
+}
+ 
+.ceyond-navigation{
+padding: 20px0;
+}
+.ceyond-navigation.navigation-item:nth-child(2){
+text-align:center;
+}
+ 
+.ceyond-navigation .navigation-item ul{
+list-style: none;
+}
+.ceyond-navigation .navigation-item ul li{
+display:inline-block;
+margin-right: 20px;
+}
+.ceyond-navigation .navigation-item ul li:last-child{
+margin-right:0;
+}
+

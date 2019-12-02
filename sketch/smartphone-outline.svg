@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="31px" viewBox="0 0 25 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>smartphone-outline</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage" transform="translate(-971.000000, -1387.000000)">
+            <g id="service_item-copy-2" transform="translate(938.000000, 1342.000000)">
+                <g id="smartphone-outline" transform="translate(33.000000, 45.000000)">
+                    <path d="M20.3125,6.88338275e-16 L4.6875,6.88338275e-16 C2.09866524,0 0,2.08187591 0,4.65 L0,26.35 C0,28.9181241 2.09866524,31 4.6875,31 L20.3125,31 C22.9013348,31 25,28.9181241 25,26.35 L25,4.65 C25,2.08187591 22.9013348,0 20.3125,6.88338275e-16 Z M21.875,26.35 C21.875,27.2060414 21.1754449,27.9 20.3125,27.9 L4.6875,27.9 C3.82455508,27.9 3.125,27.2060414 3.125,26.35 L3.125,4.65 C3.125,3.79395864 3.82455508,3.1 4.6875,3.1 L20.3125,3.1 C21.1754449,3.1 21.875,3.79395864 21.875,4.65 L21.875,26.35 Z" id="Shape" fill="#2FA0E1" fill-rule="nonzero"></path>
+                    <circle id="Oval" fill="#265374" cx="12.5" cy="22.5" r="2.5"></circle>
+                    <path d="M16.4285714,6 L8.57142857,6 C7.70355254,6 7,6.67157288 7,7.5 C7,8.32842712 7.70355254,9 8.57142857,9 L16.4285714,9 C17.2964475,9 18,8.32842712 18,7.5 C18,6.67157288 17.2964475,6 16.4285714,6 Z" id="Path" fill="#2B7BAD"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
