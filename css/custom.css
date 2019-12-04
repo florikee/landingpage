@@ -54,7 +54,16 @@ a:hover{
     line-height: 45px;
 }
 
-
+.zoho-top-video{
+    position: absolute;
+    top: -67px;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+.zoho-top-video video {
+    width: 370px;
+}
 .zoho-btn{
     background: rgba(240, 70, 61, 0.10980392156862745);
     color: #F0463D;
@@ -148,7 +157,7 @@ ul.inline li:last-child{
 }
 
 .ceyond-description-section{
-    padding: 40px 0;
+    padding: 82px 0;
 }
 .ceyond-description-section.service-description h1{
     padding:60px;
@@ -181,7 +190,7 @@ ul.inline li:last-child{
 }
 
 .box_item {
-    background: #f1f1f1;
+    background: rgba(47, 157, 221, 0.0784313725490196);
     border-radius: 8px;
     width: 100%;
     padding: 30px;
@@ -198,7 +207,7 @@ ul.inline li:last-child{
     padding-bottom: 20px;
     width: 30px;
     height: 30px;
-    margin-bottom: 20px;;
+    margin-bottom: 50px;;
 }
 .box_icon.box-icon-inline{
    
@@ -213,7 +222,7 @@ display: inline-block;
 width: 30px;
 }
 .box_icon img{
-height: 30px;
+height: 50px;
   
 }
 .box_shape {
@@ -245,7 +254,7 @@ height: 30px;
 
 .ceyond-milestone{
     margin: 0;
-    background: #f1f1f1;
+    background: #eff7fc;
     padding: 30px;
     box-sizing: border-box;
     margin-top: 30px;
