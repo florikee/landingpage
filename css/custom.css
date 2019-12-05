@@ -5,7 +5,10 @@ body{
     color:#161723;
 }
 
-
+body.dark{
+    background-color: #161723;
+    color:#fff;
+}
 h1,h2,h3,h4,h5,h6{
     font-family: "Poppins",'sans-serif';
    
@@ -33,9 +36,17 @@ a{
     color:#161723;
     text-decoration: none;
 }
+a.dark{
+    color:#fff;
+    text-decoration: none;
+}
 a:hover{
     text-decoration: none;
     color:#161723;
+}
+a.dark:hover{
+    text-decoration: none;
+    color:#fff;
 }
 
 .ceyond-navigation{
@@ -76,10 +87,18 @@ a:hover{
     transition:0.2s ease-in;
 
 }
+.cost-btn{
+    background-color: rgb(14, 87, 243);
+    color:white;
+}
 
 .zoho-btn:hover{
-    color:#F0463D;
+    color: rgb(226, 8, 19);
+   background-color:white;
    
+}
+.cost-btn:hover{
+    color:#2F9FDF;
 }
 .zoho-btn-two{
     
@@ -151,9 +170,11 @@ ul.inline li:last-child{
 
 .intro-section-bg-image{
     text-align:right;
+    
 }
 .intro-section-bg-image img{
-        width:80%;
+        width:40%;
+      height:auto;
 }
 
 .ceyond-description-section{
@@ -254,7 +275,7 @@ height: 50px;
 
 .ceyond-milestone{
     margin: 0;
-    background: #eff7fc;
+    background:rgba(47, 157, 221, 0.0784313725490196);
     padding: 30px;
     box-sizing: border-box;
     margin-top: 30px;
